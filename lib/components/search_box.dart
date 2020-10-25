@@ -12,10 +12,10 @@ class SearchBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20),
+      margin: EdgeInsets.only(top: 10, left: 20, right: 20, bottom: 10),
       padding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(50),
+        borderRadius: BorderRadius.circular(30),
         border: Border.all(
           color: ksecondaryColor.withOpacity(0.32),
         ),
